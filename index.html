@@ -27,6 +27,15 @@
     var coin = new Audio('./img/coin-sound.mp3');
     var wrong = new Audio('./img/wrong.mp3')
     AOS.init();
+    jQuery(document).ready(function ($) {
+      $(window).load(function () {
+        setTimeout(function () {
+          $('#page-top').fadeOut('slow', function () {
+          });
+        }, 3000);
+
+      });
+    });
   </script>
 
   <!-- Custom CSS -->
