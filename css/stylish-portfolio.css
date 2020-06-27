@@ -94,6 +94,12 @@ h4 {
   background-size: cover;
 }
 
+@media (max-width: 992px) {
+  .bg-index {
+    background-position: left top;
+  }
+}
+
 .masthead h1 {
   margin: 0;
   padding: 0;
