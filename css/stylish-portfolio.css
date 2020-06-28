@@ -80,14 +80,21 @@ h4 {
   padding-bottom: 8rem;
 }
 
-.bg-yes {
-  background: url("../img/mario.gif");
+.bg-index {
+  background: url("../img/hell.webp");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.bg-index {
+.bg-yes {
+  background: url("../img/yes-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-trophy {
   background: url("../img/index-bg.png");
   background-position: center center;
   background-repeat: no-repeat;
