@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "VT323", monospace;
-  background-color: #1b1b1b;
+  background-color: #212529;
   color: white;
   font-size: 25px;
 }
@@ -63,7 +63,7 @@ h4 {
 }
 
 .black {
-  color: #1b1b1b;
+  color: #212529;
 }
 
 .text-faded {
@@ -81,7 +81,7 @@ h4 {
 }
 
 .bg-index {
-  background: url("../img/hell.webp");
+  background: url("../img/meteors.gif");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,7 +132,7 @@ h4 {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1b1b1b;
+  background: #212529;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -165,7 +165,7 @@ h4 {
 
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
-  background: #1b1b1b;
+  background: #212529;
   height: 80px;
   line-height: 50px;
   padding-top: 15px;
@@ -196,7 +196,7 @@ h4 {
   height: 50px;
   text-align: center;
   color: #fff;
-  background: #1b1b1b;
+  background: #212529;
   line-height: 50px;
   z-index: 999;
 }
