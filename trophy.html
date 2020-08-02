@@ -1,92 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
+    <title>Rifqi's Birthday</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <title>Rifqi's Birthday</title>
-
-  <!-- Bootstrap Core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom Fonts
+    <!-- Custom Fonts
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"> -->
 
-  <!-- Custom 8bit -->
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
-  <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
-  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom 8bit -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-  <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.css" rel="stylesheet">
-</head>
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet" />
 
-<body id="page-top">
+    <!-- Video Plugin -->
+    <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
 
-  <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        Happy Birthday
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="./index.html">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="./yes.html">Yes</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="./trophy.html">Present</a>
-      </li>
-    </ul>
-  </nav>
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+  </head>
 
-  <!-- Header -->
-  <header class="masthead d-flex bg-trophy">
-    <div class="container my-auto px-2">
-      <h1 class="mb-5 green">HTTP Error 404</h1>
-      <h3 class="mb-5">Present not found.</h3>
-      <div class="row">
-        <ul class="col-md-6 col-12 list-unstyled mb-3">
-          <li><img src="./img/drunk.gif" alt="" style="margin-bottom: -1rem;max-height: 170px;"></li>
-          <li>
-            <div class="nes-btn is-success">
-              <h4 class="text-left black">
-                But I did make you a video compilation.
-                <br />
-                Happy 25th Birthday, Rifqi!
-              </h4>
-            </div>
-          </li>
-        </ul>
-        <div class="col-md-6 col-12">
-          <img src="./img/dragon.gif" alt="" style="max-width: 100%">
+  <body id="trophy">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          Happy Birthday
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="./index.html">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="./yes.html">Yes</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="./trophy.html">Present</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex bg-trophy">
+      <div class="container my-auto px-2">
+        <h1 class="mb-5 green">HTTP Error 404</h1>
+        <h3 class="mb-5">Present not found.</h3>
+        <div class="row">
+          <ul class="col-md-6 col-12 list-unstyled mb-3">
+            <li>
+              <img
+                src="./img/drunk.gif"
+                alt=""
+                style="margin-bottom: -1rem; max-height: 170px;"
+              />
+            </li>
+            <li>
+              <div
+                class="nes-btn is-success"
+                type="button"
+                data-toggle="modal"
+                data-target="#exampleModalCenter"
+              >
+                <h4 class="text-left black">
+                  But I did make you a video compilation.
+                  <br />
+                  Happy 25th Birthday, Rifqi!
+                  <br />
+                  <span style="font-size: 14px;">Click Here...</span>
+                </h4>
+              </div>
+            </li>
+          </ul>
+          <div class="col-md-6 col-12">
+            <img src="./img/dragon.gif" alt="" style="max-width: 100%;" />
+          </div>
         </div>
       </div>
-    </div>
-    <div class="overlay"></div>
-  </header>
+      <div class="overlay"></div>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModalCenter"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title" id="exampleModalLongTitle">
+                Happy Birthday Chips
+              </h4>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+                style="color: white;"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <video
+                id="my-video"
+                class="video-js"
+                controls
+                preload="auto"
+                width="auto"
+                height="auto"
+                poster="MY_VIDEO_POSTER.jpg"
+                data-setup="{}"
+              >
+                <source src="./vids/hbd-min.mp4" type="video/mp4" />
+                <p class="vjs-no-js">
+                  To view this video please enable JavaScript, and consider
+                  upgrading to a web browser that
+                  <a
+                    href="https://videojs.com/html5-video-support/"
+                    target="_blank"
+                    >supports HTML5 video</a
+                  >
+                </p>
+              </video>
+            </div>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+            <div class="modal-footer">
+              <!--
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-</body>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
 
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+  </body>
 </html>

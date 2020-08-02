@@ -1,88 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
+    <title>Rifqi's Birthday</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-  <title>Rifqi's Birthday</title>
-
-  <!-- Bootstrap Core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom Fonts
+    <!-- Custom Fonts
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet"> -->
 
-  <!-- Custom 8bit -->
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet" />
-  <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
-  <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom 8bit -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/nes.css@latest/css/nes.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-  <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.css" rel="stylesheet">
-</head>
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet" />
 
-<body id="page-top">
+    <script>
+      var glitch = new Audio("./img/glitch.mp3");
+    </script>
+  </head>
 
-  <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        Happy Birthday
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="./index.html">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="./yes.html">Yes</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="./trophy.html">Present</a>
-      </li>
-    </ul>
-  </nav>
+  <body id="yes">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          Happy Birthday
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="./index.html">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="./yes.html">Yes</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="./trophy.html">Present</a>
+        </li>
+      </ul>
+    </nav>
 
-  <!-- Header -->
-  <header class="masthead d-flex bg-yes">
-    <div class="container text-center my-auto">
-      <h3 class="mb-5">Thankyou for your payment...</h3>
-      <h3 class="mb-5 blue">
-        By the way, we want to say <br />
-        <span class="yellow">"Happy Birthday"</span>
-        <br />
-      </h3>
-      <h4 class="mb-4" style="color:white">
-        Please click the trophy icon below to receive a special present
-        from us
-      </h4>
-      <a href="./trophy.html"><i class="nes-icon trophy is-large"></i></a>
-    </div>
-    <div class="overlay"></div>
-    <audio autoplay="true">
-      <source src="./img/hbd.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-  </header>
+    <!-- Header -->
+    <header class="masthead d-flex bg-yes">
+      <div class="container text-center my-auto">
+        <h3 class="mb-5">Thankyou for your payment...</h3>
+        <h3 class="mb-5 blue">
+          By the way, we want to say <br />
+          <span class="yellow">"Happy Birthday"</span>
+          <br />
+        </h3>
+        <h4 class="mb-4" style="color: white;">
+          Please click the trophy icon below to receive a special present from
+          us
+        </h4>
+        <a href="./trophy.html" onclick="wrong.glitch()"
+          ><i class="nes-icon trophy is-large"></i
+        ></a>
+      </div>
+      <div class="overlay"></div>
+      <audio autoplay="true">
+        <source src="./img/hbd.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </header>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.min.js"></script>
-
-</body>
-
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+  </body>
 </html>
